@@ -1,3 +1,4 @@
+![Alt text](compilation.png)
 Lors de ma première exécution du rapport de couverture, j'ai obtenu des résultats moyens qui ne parvenaient pas à atteindre 100% pour la catégorie "Date".
 ![Alt text](default.png) ![Alt text](<coverage report.png>) ![Alt text](date.png)
 
