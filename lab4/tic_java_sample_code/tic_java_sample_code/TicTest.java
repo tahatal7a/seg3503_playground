@@ -38,4 +38,10 @@ class TicTest {
         boolean move = board.move(0, 1);
         assertEquals(move, true);
     }
+
+	@Test
+    void testBoardFull() {
+        Tic board = new Tic(3, 3);
+        assertEquals(board.isFull(), true);
+    }
 }
