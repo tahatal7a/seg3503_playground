@@ -24,8 +24,9 @@ class TicTest {
 
 	@Test
     void testWinner() {
-        Tic board = new Tic(3, 3);
-        board.move(2, 1);
+        board.move(0, 0); board.move(1, 0); board.move(2, 0);
+		board.move(0, 1); board.move(1, 1); board.move(2, 1);
+		board.move(0, 2); board.move(1, 2); board.move(2, 2);
         board.move(0, 1);
         assertEquals(board.isWin(), true);
     }
