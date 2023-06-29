@@ -41,6 +41,9 @@ class TicTest {
 
 	@Test
     void testBoardFull() {
+		board.move(0, 0); board.move(1, 0); board.move(2, 0);
+		board.move(0, 1); board.move(1, 1); board.move(2, 1);
+		board.move(0, 2); board.move(1, 2); board.move(2, 2);
         Tic board = new Tic(3, 3);
         assertEquals(board.isFull(), true);
     }
