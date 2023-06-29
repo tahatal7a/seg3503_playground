@@ -11,7 +11,7 @@ class TicTest {
 		Tic board = new Tic(3, 3);
 		board.move(0, 1);
 		Tic board2 = new Tic(3,3);
-		board2.move(1, 0);
+		board2.move(0, 1);
 		assertEquals(board.equals(board2),  true);
 	}
 
